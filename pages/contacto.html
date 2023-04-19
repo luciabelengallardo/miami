@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="container-fluid border-bottom border-secondary-subtle">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand d-lg-none" href="../index.html">
+                <img src="../assets/giftfort-2.gif" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">
+                        <button type="button" class="btn btn-secondary">Home</button>
+                    </a>
+                  </li>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Places
+                    </button>
+                    <ul class="dropdown-menu btn btn-light">
+                      <li><a class="dropdown-item" href="./miami.html">Miami</a></li>
+                      <li><a class="dropdown-item" href="./nyc.html">NYC</a></li>
+                      <li><a class="dropdown-item" href="./orlando.html">Orlando</a></li>
+                      <li><a class="dropdown-item" href="./cancun.html">Cancun</a></li>
+                    </ul>
+                  </div>
+                  <a class="navbar-brand d-none d-lg-block" href="../index.html">
+                    <img src="../assets/giftfort-2.gif" alt="">
+                  </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">
+                        <button type="button" class="btn btn-secondary">Contact</button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./aboutus.html">
+                        <button type="button" class="btn btn-secondary">About Us</button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main class="container-fluid text-center">
+
+        <div class="lista-contacto">
+            <h1>CONTACTO</h1>
+
+            <ul class="lista-app justify-content-center w-100 pt-4">
+                <li>
+                    <a href="https://wa.me/3814620313" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </li>
+                <li>
+                    <h3>luciagallardoherrera@gmail.com</h3>
+                </li>
+                <li>
+                    <h3>+54 381 462 0313</h3>
+                </li>
+            </ul>
+        </div>
+        
+        <section class="form-floating d-flex justify-content-center p-4">
+            <form action="https://formsubmit.co/luciagallardoherrera@gmail.com" method="POST" class="text-center">
+
+                <h2>DEJANOS TU OPINION!</h2>
+
+                <div class="form-group col m-3">
+
+                    <label for="nombre" class="form-label col-md-6">Nombre y Apellido</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Ej: Ricardo Fort" required>
+
+                </div>
+
+                <div class="form-group col m-3">
+
+                    <label for="opinion" class="form-label visually-hidden">deja tu opinion</label>
+                    <textarea name="comments" id="comments" class="col form-control" cols="30" rows="5" placeholder="Escribe aqui..." required></textarea>
+
+                </div>
+
+                <input type="submit" class="btn" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+
+            </form>
+        </section>
+
+    </main>
+    
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
